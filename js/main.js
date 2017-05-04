@@ -150,6 +150,20 @@ $(function(){
       e.stopImmediatePropagation();
 
       menumobileexpand();
+			/* tutup menu */
+			$(document).on('mouseup', function(e){
+				e.preventDefault();
+				e.stopImmediatePropagation();
+				if(e.target.className != 'menu-mobile'){
+					removemenumobile();
+
+					menubutton.removeClass('close');
+					$('.menu-mobile a').html('Menu');
+					menu.removeClass('menu-expanded').addClass('menu-collapsed').delay(1000).queue(function(){
+						$('.sub').css({'display':'none'});
+					});
+				}
+			});
     });
 
     /* klik link menunya */
@@ -186,20 +200,6 @@ $(function(){
 			submenu.css({'display':'block'});
 		});
 
-		/* tutup menu */
-		$(document).on('click', function(e){
-			e.preventDefault();
-			e.stopPropagation();
-			if(e.target.className != 'menu-mobile'){
-				removemenumobile();
-
-				menubutton.removeClass('close');
-				$('.menu-mobile a').html('Menu');
-				menu.removeClass('menu-expanded').addClass('menu-collapsed').delay(1000).queue(function(){
-					$('.sub').css({'display':'none'});
-				});
-			}
-		});
 		/* end mobile menu */
 
 		/* mobile headline top terbaru */
