@@ -77,6 +77,8 @@ $(function(){
 			centeredSlides: true,
 			loopedSlides: 3, //looped slides should be the same
 			touchRatio: 0.2,
+			preventClicks: false,
+			preventClicksPropagation: false,
 			slideToClickedSlide: true,
 	});
 	var mobileContent = new Swiper('main .content', {
@@ -92,12 +94,17 @@ $(function(){
 	mobileContent.params.control = mobileNavigation;
 	/* end mobile swipe */
 
+	$('.swiper-slide a').on('click', function(){
+		window.location.href = $(this).attr("href");
+	});
+
 	/* mobile menu */
 	if($('#menu-button').length == 0){
 		$('.header-main .w-50:nth-of-type(2)').prepend(menumobileClone);
 		$('body .container').before(menumobilecontainerClone);
 		menumobilecontainer.remove();
 	}
+
 	mobileMenu();
 
   function resetmobileMenu(){
@@ -150,20 +157,6 @@ $(function(){
       e.stopImmediatePropagation();
 
       menumobileexpand();
-			/* tutup menu */
-			$(document).on('mouseup', function(e){
-				e.preventDefault();
-				e.stopImmediatePropagation();
-				if(e.target.className != 'menu-mobile'){
-					removemenumobile();
-
-					menubutton.removeClass('close');
-					$('.menu-mobile a').html('Menu');
-					menu.removeClass('menu-expanded').addClass('menu-collapsed').delay(1000).queue(function(){
-						$('.sub').css({'display':'none'});
-					});
-				}
-			});
     });
 
     /* klik link menunya */
@@ -200,20 +193,34 @@ $(function(){
 			submenu.css({'display':'block'});
 		});
 
-		/* end mobile menu */
+		/* tutup menu */
+		$(document).on('click', function(e){
+			e.preventDefault();
+			e.stopImmediatePropagation();
+			if(e.target.className != 'menu-mobile'){
+				removemenumobile();
 
-		/* mobile headline top terbaru */
-		var mobileHeadlineTerbaru = new Swiper('.headline-mobile-terbaru', {
-			pagination: '.swiper-pagination',
-			paginationClickable: true,
-			onAfterResize: function(mobileHeadlineTerbaru){
-				mobileHeadlineTerbaru.destroy();
-				$('.headline-mobile-terbaru .swiper-wrapper').removeAttr('style');
-				$('.headline-mobile-terbaru .swiper-slide').removeAttr('style');
+				menubutton.removeClass('close');
+				$('.menu-mobile a').html('Menu');
+				menu.removeClass('menu-expanded').addClass('menu-collapsed').delay(1000).queue(function(){
+					$('.sub').css({'display':'none'});
+				});
 			}
 		});
-		/* end mobile headline top terbaru */
 	}
+	/* end mobile menu */
+
+	/* mobile headline top terbaru */
+	var mobileHeadlineTerbaru = new Swiper('.headline-mobile-terbaru', {
+		pagination: '.swiper-pagination',
+		paginationClickable: true,
+		onAfterResize: function(mobileHeadlineTerbaru){
+			mobileHeadlineTerbaru.destroy();
+			$('.headline-mobile-terbaru .swiper-wrapper').removeAttr('style');
+			$('.headline-mobile-terbaru .swiper-slide').removeAttr('style');
+		}
+	});
+	/* end mobile headline top terbaru */
 
 	/* tab */
 	$('.tab-pagination a').on('click', function(e){
