@@ -88,8 +88,8 @@ $(function(){
 			hashnavWatchState: true,
 			grabCursor: true,
 			onAfterResize: function(){
-				mobileNavigation.update(true);
-				mobileContent.update(true);
+				mobileNavigation.update(true, true);
+				mobileContent.update(true, true);
 			}
 	});
 	mobileNavigation.params.control = mobileContent;
@@ -262,7 +262,7 @@ $(function(){
 	/* end detail article only */
 
 	/* detail foto */
-	if($('#detail-foto').length){
+	if($('#detail-foto').length || $('article').length){
 		$('head').append('<script src="js/photoswipe.min.js"></script><link rel="stylesheet" type="text/css" href="css/photoswipe.css"><link rel="stylesheet" type="text/css" href="css/photoswipe-default-skin.css">');
 		if($('script[src="js/photoswipe.min.js"]').length){
 			console.log('ada jsnya');
