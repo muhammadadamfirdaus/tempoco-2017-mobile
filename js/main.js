@@ -265,7 +265,6 @@ $(function(){
 	if($('#detail-foto').length || $('article').length){
 		$('head').append('<script src="js/photoswipe.min.js"></script><link rel="stylesheet" type="text/css" href="css/photoswipe.css"><link rel="stylesheet" type="text/css" href="css/photoswipe-default-skin.css">');
 		if($('script[src="js/photoswipe.min.js"]').length){
-			console.log('ada jsnya');
 			// Photoswipe
 			if($('figure').length){
 				var slideSelector = 'figure img',
