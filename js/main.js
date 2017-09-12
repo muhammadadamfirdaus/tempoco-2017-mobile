@@ -197,7 +197,7 @@ $(function(){
 
 		/* tutup menu */
 		$(document).on('click', function(e){
-			e.preventDefault();
+			// e.preventDefault();
 			e.stopImmediatePropagation();
 			if(e.target.className != 'menu-mobile'){
 				removemenumobile();
@@ -281,6 +281,68 @@ $(function(){
 	}
 	/* end detail foto */
 
+	// Ads
+	// bottom ads
+  if($('.bottom-banner').length){
+    var bottomAdsCloseButton = $('.bottom-banner button');
+    bottomAdsCloseButton.on('click', function(e){
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      // console.log('closing');
+      $('.bottom-banner').addClass('bottom-banner-closed');
+			if($('.bottom-banner-closed').length){
+				$('.bottom-nav').css({
+					'height':'110px'
+				});
+			}
+		});
+  }
+	
+	// parallax ads
+	// I know that the code could be better.
+// If you have some tips or improvement, please let me know.
+
+$('.ads-layer img').each(function(){
+  var img = $(this);
+  var imgParent = $(this).parent();
+  function parallaxImg () {
+    var speed = img.data('speed');
+    var imgY = imgParent.offset().top;
+    var winY = $(this).scrollTop();
+    var winH = $(this).height();
+    var parentH = imgParent.innerHeight();
+
+
+    // The next pixel to show on screen      
+    var winBottom = winY + winH;
+
+    // If block is shown on screen
+    if (winBottom > imgY && winY < imgY + parentH) {
+      // Number of pixels shown after block appear
+      var imgBottom = ((winBottom - imgY) * speed);
+      // Max number of pixels until block disappear
+      var imgTop = winH + parentH;
+      // Porcentage between start showing until disappearing
+      var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
+    }
+    img.css({
+      top: imgPercent + '%',
+      transform: 'translate(-50%, -' + imgPercent + '%)'
+    });
+  }
+
+	$('.scroll-container').on('scroll', function(){
+		parallaxImg();
+	});
+	
+});
+			
+			// $(".scroll-container").on('scroll', function (e){
+			// 	console.log('x');
+			// 	s = $(".container").scrollTop();
+			// 	$(".parallax").css("transform","translateY(" +  (s/3)  + "px)");
+			// });
+
 	// Social Plugin Button po.st
 	var s = document.createElement('script');
 	s.type = 'text/javascript';
@@ -305,10 +367,17 @@ $(function(){
 		'page': location.pathname + location.search + location.hash
 	});
 
-	// Google Tag Manager
+	// Google Tag Manager test
+	// (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  // new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  // j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  // 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  // })(window,document,'script','dataLayer','GTM-TVGQF5T');
+	
+	// Google Tag Manager live
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TVGQF5T');
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5GHCPMW');
 });
