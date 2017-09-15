@@ -2103,7 +2103,7 @@ footer .extra .col:nth-of-type(2) a {
 	/* tags */
 	.tags li {
 		display: inline-block;
-		margin: 2px 0;
+		margin: 2px;
 	}
 
 	.tags li a {
