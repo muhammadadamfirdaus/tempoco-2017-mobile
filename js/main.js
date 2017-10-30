@@ -65,35 +65,37 @@ $(function(){
 			menumobilecontainer.remove();
 
 	/* mobile swipe */
-	var mobileNavigation = new Swiper('main .navigation', {
-			nextButton: '.swiper-button-next',
-			prevButton: '.swiper-button-prev',
-			spaceBetween: 10,
-			slidesPerView: 3,
-			loop:true,
-			hashnav: true,
-			hashnavWatchState: true,
-			grabCursor: true,
-			centeredSlides: true,
-			loopedSlides: 3, //looped slides should be the same
-			touchRatio: 0.2,
-			slideToClickedSlide: true
-	});
-	var mobileContent = new Swiper('main .content', {
-			spaceBetween: 10,
-			slidesPerView: 'auto',
-			loop: true,
-			centeredSlides: false,
-			hashnav: true,
-			hashnavWatchState: true,
-			grabCursor: true,
-			onAfterResize: function(){
-				mobileNavigation.update(true, true);
-				mobileContent.update(true, true);
-			}
-	});
-	mobileNavigation.params.control = mobileContent;
-	mobileContent.params.control = mobileNavigation;
+	// var mobileNavigation = new Swiper('main .navigation', {
+	// 		initialSlide: 1, 
+	// 		nextButton: '.swiper-button-next',
+	// 		prevButton: '.swiper-button-prev',
+	// 		spaceBetween: 10,
+	// 		slidesPerView: 'auto',
+	// 		loop:false,
+	// 		hashnav: true,
+	// 		hashnavWatchState: true,
+	// 		grabCursor: true,
+	// 		centeredSlides: true,
+	// 		loopedSlides: 1, //looped slides should be the same
+	// 		touchRatio: 0.2,
+	// 		slideToClickedSlide: true
+	// });
+	// var mobileContent = new Swiper('main .content', {
+	// 		initialSlide: 1,
+	// 		spaceBetween: 10,
+	// 		slidesPerView: 'auto',
+	// 		loop: false, 
+	// 		centeredSlides: true,
+	// 		hashnav: true,
+	// 		hashnavWatchState: true,
+	// 		grabCursor: true,
+	// 		onAfterResize: function(){
+	// 			mobileNavigation.update(true, true);
+	// 			mobileContent.update(true, true);
+	// 		}
+	// });
+	// mobileNavigation.params.control = mobileContent;
+	// mobileContent.params.control = mobileNavigation;
 	/* end mobile swipe */
 
 	$('.swiper-slide > a, .swiper-slide a[href^="#"]').on('click', function(){
@@ -263,8 +265,9 @@ $(function(){
 
 	/* detail foto */
 	if($('#detail-foto').length || $('article').length){
-		$('head').append('<script src="js/photoswipe.min.js"></script><link rel="stylesheet" type="text/css" href="css/photoswipe.css"><link rel="stylesheet" type="text/css" href="css/photoswipe-default-skin.css">');
-		if($('script[src="js/photoswipe.min.js"]').length){
+		$('head').append('<script src="/js/mobile/photoswipe.min.js"></script><link rel="stylesheet" type="text/css" href="/css/mobile/photoswipe.css"><link rel="stylesheet" type="text/css" href="/css/mobile/photoswipe-default-skin.css">');
+		if($('script[src="/js/mobile/photoswipe.min.js"]').length){
+			console.log('ada jsnya');
 			// Photoswipe
 			if($('figure').length){
 				var slideSelector = 'figure img',
@@ -296,7 +299,7 @@ $(function(){
 			}
 		});
   }
-	
+
 	// parallax ads
 	// I know that the code could be better.
 // If you have some tips or improvement, please let me know.
@@ -312,7 +315,7 @@ $('.ads-layer img').each(function(){
     var parentH = imgParent.innerHeight();
 
 
-    // The next pixel to show on screen      
+    // The next pixel to show on screen
     var winBottom = winY + winH;
 
     // If block is shown on screen
@@ -333,9 +336,9 @@ $('.ads-layer img').each(function(){
 	$('.scroll-container').on('scroll', function(){
 		parallaxImg();
 	});
-	
+
 });
-			
+
 			// $(".scroll-container").on('scroll', function (e){
 			// 	console.log('x');
 			// 	s = $(".container").scrollTop();
@@ -372,7 +375,7 @@ $('.ads-layer img').each(function(){
   // j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   // 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   // })(window,document,'script','dataLayer','GTM-TVGQF5T');
-	
+
 	// Google Tag Manager live
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

@@ -1,0 +1,6 @@
+keuptusan:
+header top merah.
+fokus 1 slot, title fokus uppercase, title fokus size sesuai dengan design blok merah. Sliding ke kiri.
+jarak foto headline disamakan dengan design merah.
+logo size width 55% fixed.
+di headline, tidak ada box kanal, kecuali, breaking news, special event (live), dan iklan.
