@@ -66,7 +66,7 @@ $(function(){
 
 	/* mobile swipe */
 	// var mobileNavigation = new Swiper('main .navigation', {
-	// 		initialSlide: 1, 
+	// 		initialSlide: 1,
 	// 		nextButton: '.swiper-button-next',
 	// 		prevButton: '.swiper-button-prev',
 	// 		spaceBetween: 10,
@@ -84,7 +84,7 @@ $(function(){
 	// 		initialSlide: 1,
 	// 		spaceBetween: 10,
 	// 		slidesPerView: 'auto',
-	// 		loop: false, 
+	// 		loop: false,
 	// 		centeredSlides: true,
 	// 		hashnav: true,
 	// 		hashnavWatchState: true,
@@ -265,21 +265,54 @@ $(function(){
 
 	/* detail foto */
 	if($('#detail-foto').length || $('article').length){
-		$('head').append('<script src="/js/mobile/photoswipe.min.js"></script><link rel="stylesheet" type="text/css" href="/css/mobile/photoswipe.css"><link rel="stylesheet" type="text/css" href="/css/mobile/photoswipe-default-skin.css">');
-		if($('script[src="/js/mobile/photoswipe.min.js"]').length){
-			console.log('ada jsnya');
-			// Photoswipe
-			if($('figure').length){
-				var slideSelector = 'figure img',
-		    options     = {bgOpacity: 0.8},
-		    events      = {
-		        close: function () {
-		            console.log('closed');
-		        }
-		    };
-				$('article').photoSwipe(slideSelector, options, events);
+		// $('head').append('<script src="/js/mobile/photoswipe.min.js"></script><link rel="stylesheet" type="text/css" href="/css/mobile/photoswipe.css"><link rel="stylesheet" type="text/css" href="/css/mobile/photoswipe-default-skin.css">');
+		// if($('script[src="/js/mobile/photoswipe.min.js"]').length){
+		// 	console.log('ada jsnya');
+		// 	// Photoswipe
+		// 	if($('figure').length){
+		// 		var slideSelector = 'figure img',
+		//     options     = {bgOpacity: 0.8},
+		//     events      = {
+		//         close: function () {
+		//             console.log('closed');
+		//         }
+		//     };
+		// 		$('article').photoSwipe(slideSelector, options, events);
+		// 	}
+		// }
+		var fotoDetailMobile = new Swiper('.foto-detail-mobile', {
+			pagination: '.swiper-pagination',
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			paginationClickable: true,
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			// loop: true,
+			hashnav: true,
+			hashnavWatchState: true,
+			// hashnavreplaceState: true,
+			slidesPerView: 'auto',
+			coverflow: {
+				rotate: 50,
+				stretch: 0,
+				depth: 120,
+				modifier: 1,
+				slideShadows : true
 			}
-		}
+		});
+
+		var fotoDetailMobileCaption = new Swiper('.foto-caption', {
+			centeredSlides: true,
+			spaceBetween: 30
+		});
+	
+		fotoDetailMobile.params.control = fotoDetailMobileCaption;
+		fotoDetailMobileCaption.params.control = fotoDetailMobile;
+	
+		$('.foto-detail-mobile.swiper-container a').on('click', function(e){
+			e.preventDefault();
+		});
 	}
 	/* end detail foto */
 
@@ -354,21 +387,6 @@ $('.ads-layer img').each(function(){
 	var x = document.getElementsByTagName('script')[0];
 	x.parentNode.insertBefore(s, x);
 
-	// Google Analytics
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-57161828-3', 'auto', {'allowAnchor': true});
-	ga('set', {
-		page: '/#'
-	});
-
-	ga('send', 'pageview', {
-		'page': location.pathname + location.search + location.hash
-	});
-
 	// Google Tag Manager test
 	// (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   // new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -381,5 +399,5 @@ $('.ads-layer img').each(function(){
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5GHCPMW');
+	})(window,document,'script','dataLayer','GTM-KNSBXFS');
 });
