@@ -3000,7 +3000,7 @@ button.swiper-pagination-bullet {
   display: block;
 }
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 1px 5px;
+  margin: 5% 5px;
 }
 /* Progress */
 .swiper-pagination-progress {
