@@ -2147,7 +2147,7 @@ http://www.muhammadadamfirdaus.com/
 		position: relative;
 	}
  
- #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:before,
+ /* #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:before,
  #gallery #section-4 .foto-detail.swiper-container .card-type-5 a:nth-of-type(1).col:before {
 		content: '';
 		position: absolute;
@@ -2155,7 +2155,7 @@ http://www.muhammadadamfirdaus.com/
 		height: 100%;
 		background-color: rgba(0,0,0,0.5);
 		z-index: 1;
-	}
+	} */
  
  
 	#gallery #section-4 .foto-detail.swiper-container .swiper-slide figcaption {
