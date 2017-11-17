@@ -102,6 +102,38 @@ $(function(){
 		window.location.href = $(this).attr("href");
 	});
 
+	var searchMobile = $('a.search');
+	var searchMobileContainer = $('<div class="search-box active"><div class="wrapper"><form action="search.html" method="get" id="text_cari"><input class="search" type="search" value="Cari konten menarik?" name="q"></form></div></div>'),
+	searchMobileContainerClone = searchMobileContainer.clone(true);
+	searchMobile.on('click', function(){
+		if($('.search-box').hasClass('active')){
+			console.log('hi');
+			searchMobileContainer.removeClass('active').delay(1500).remove();
+			$('main').removeClass('search-active').addClass('search-deactive');
+			
+		} else {
+			$('.header-bottom').append(searchMobileContainer);
+			searchMobileContainer.addClass('active');
+			$('main').addClass('search-active').removeClass('search-deactive');
+		}
+	});
+
+	var thisValue = $(this).val();
+	$(document).on('focus', 'input.search', function(){
+		$(this).attr('value', '');
+	}).on('blur','input.search', function () {
+    if ($(this).val() === "") {
+      $(this).attr('value', 'Cari konten menarik?');
+    }
+	});
+	
+	// .on('click', function(e){
+	// 	e.stopPropagation();
+	// 	console.log('di luar document');
+	// 	searchMobileContainer.removeClass('active').delay(1500).remove();
+	// 	$('main').removeClass('search-active').addClass('search-deactive');
+	// });
+
 	/* mobile menu */
 	if($('#menu-button').length == 0){
 		$('.header-main .w-50:nth-of-type(2)').prepend(menumobileClone);
@@ -318,59 +350,59 @@ $(function(){
 
 	// Ads
 	// bottom ads
-  if($('.bottom-banner').length){
-    var bottomAdsCloseButton = $('.bottom-banner button');
-    bottomAdsCloseButton.on('click', function(e){
-      e.preventDefault();
-      e.stopImmediatePropagation();
-      // console.log('closing');
-      $('.bottom-banner').addClass('bottom-banner-closed');
-			if($('.bottom-banner-closed').length){
-				$('.bottom-nav').css({
-					'height':'110px'
-				});
-			}
-		});
-  }
+  // if($('.bottom-banner').length){
+  //   var bottomAdsCloseButton = $('.bottom-banner button');
+  //   bottomAdsCloseButton.on('click', function(e){
+  //     e.preventDefault();
+  //     e.stopImmediatePropagation();
+  //     // console.log('closing');
+  //     $('.bottom-banner').addClass('bottom-banner-closed');
+	// 		if($('.bottom-banner-closed').length){
+	// 			$('.bottom-nav').css({
+	// 				'height':'110px'
+	// 			});
+	// 		}
+	// 	});
+  // }
 
 	// parallax ads
 	// I know that the code could be better.
 // If you have some tips or improvement, please let me know.
 
-$('.ads-layer img').each(function(){
-  var img = $(this);
-  var imgParent = $(this).parent();
-  function parallaxImg () {
-    var speed = img.data('speed');
-    var imgY = imgParent.offset().top;
-    var winY = $(this).scrollTop();
-    var winH = $(this).height();
-    var parentH = imgParent.innerHeight();
+// $('.ads-layer img').each(function(){
+//   var img = $(this);
+//   var imgParent = $(this).parent();
+//   function parallaxImg () {
+//     var speed = img.data('speed');
+//     var imgY = imgParent.offset().top;
+//     var winY = $(this).scrollTop();
+//     var winH = $(this).height();
+//     var parentH = imgParent.innerHeight();
 
 
-    // The next pixel to show on screen
-    var winBottom = winY + winH;
+//     // The next pixel to show on screen
+//     var winBottom = winY + winH;
 
-    // If block is shown on screen
-    if (winBottom > imgY && winY < imgY + parentH) {
-      // Number of pixels shown after block appear
-      var imgBottom = ((winBottom - imgY) * speed);
-      // Max number of pixels until block disappear
-      var imgTop = winH + parentH;
-      // Porcentage between start showing until disappearing
-      var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
-    }
-    img.css({
-      top: imgPercent + '%',
-      transform: 'translate(-50%, -' + imgPercent + '%)'
-    });
-  }
+//     // If block is shown on screen
+//     if (winBottom > imgY && winY < imgY + parentH) {
+//       // Number of pixels shown after block appear
+//       var imgBottom = ((winBottom - imgY) * speed);
+//       // Max number of pixels until block disappear
+//       var imgTop = winH + parentH;
+//       // Porcentage between start showing until disappearing
+//       var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
+//     }
+//     img.css({
+//       top: imgPercent + '%',
+//       transform: 'translate(-50%, -' + imgPercent + '%)'
+//     });
+//   }
 
-	$('.scroll-container').on('scroll', function(){
-		parallaxImg();
-	});
+// 	$('.scroll-container').on('scroll', function(){
+// 		parallaxImg();
+// 	});
 
-});
+// });
 
 			// $(".scroll-container").on('scroll', function (e){
 			// 	console.log('x');

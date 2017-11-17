@@ -495,10 +495,67 @@ http://www.muhammadadamfirdaus.com/
 	 font-size: 12px;
 	 line-height: 22px;
  }
+
+ .header-main > .w-50:nth-of-type(2) > a {
+	width: 26px;
+	height: 26px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 60px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	background-size: 370px;
+	background-position: -58px -90px;
+ }
  
  .header-bottom {
 	 background: #f9f8f7;
  }
+
+ main.search-active {
+	-webkit-transform: translate3d(0,50px,0);
+	transform: translate3d(0,50px,0);
+	transition: all 0.5s ease;
+ }
+
+ main.search-deactive {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	transition: all 0.5s ease;
+ }
+
+ .search-box .wrapper {
+	 padding: 10px;
+ }
+
+ .search-box {
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+ }
+
+ .search-box.active {
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	width: 100%;
+}
+
+ .search-box input {
+	 border: 1px solid #555;
+	 padding: 10px;
+	 width: 100%;
+	 -webkit-appearance: none;
+ }
+
+ input[type="search"]::-webkit-search-decoration,
+ input[type="search"]::-webkit-search-cancel-button,
+ input[type="search"]::-webkit-search-results-button,
+ input[type="search"]::-webkit-search-results-decoration {
+	 display: none;
+ }
+ 
  
  /* begin MENU */
  nav {
@@ -664,7 +721,7 @@ http://www.muhammadadamfirdaus.com/
 	 display: inline-block;
 	 text-transform: uppercase;
 	 border: 1px solid #ffffff;
-	 padding: 6px 12px;
+	 padding: 8px 16px;
  }
  
  #headline.headline-mobile-terbaru .swiper-slide figcaption {
@@ -1312,8 +1369,7 @@ http://www.muhammadadamfirdaus.com/
 		 border:0;
 	 }
  
-	 .menu,
-	 .search {
+	 .menu {
 		 background:rgba(0,0,0,0.75);
 	 }
  
@@ -1475,7 +1531,7 @@ http://www.muhammadadamfirdaus.com/
 		 overflow: hidden;
 	 } */
  
-	 main .content .scroll-container {
+	 main#home .content .scroll-container {
 		 padding-top: 17%;
 		 height: 100vh;
 		 overflow: scroll;
@@ -2477,7 +2533,7 @@ http://www.muhammadadamfirdaus.com/
 	 }
  
 	 #headline.headline-mobile-terbaru .swiper-slide h3 {
-		 font-size: 8px;
+		 font-size: 14px;
 	 }
  
 	 /* fokus */
