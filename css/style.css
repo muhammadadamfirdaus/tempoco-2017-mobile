@@ -150,9 +150,13 @@ http://www.muhammadadamfirdaus.com/
  .logo-tempo span {
 	 display: none;
  }
+
+ main {
+	 padding-bottom: 168px;
+ }
  
  footer {
-	 position: relative;
+	 position: absolute;
 	 bottom: 0;
 	 left: 0;
 	 width: 100%;
@@ -501,8 +505,6 @@ http://www.muhammadadamfirdaus.com/
 	height: 26px;
 	display: block;
 	position: absolute;
-	top: 5px;
-	right: 60px;
 	background-image: url(../images/sprites.png);
 	background-repeat: no-repeat;
 	background-size: 370px;
@@ -922,10 +924,8 @@ http://www.muhammadadamfirdaus.com/
  
  
  footer {
-	 height: 40%;
 	 background: #333;
 	 z-index: 1;
-	 margin-top: 20px;
  }
  
  footer .wrapper {
@@ -1275,7 +1275,7 @@ http://www.muhammadadamfirdaus.com/
  
 	 /* height reset */
 	 .container {
-		 height: 100%;
+		 min-height: 100%;
 	 }
  
 	 .tab-content li:nth-of-type(1) {
@@ -1526,6 +1526,11 @@ http://www.muhammadadamfirdaus.com/
 		 font-size: 160%;
 		 line-height: 40px;
 	 }
+
+	 a.search {
+		top: 5px;
+		right: 60px;
+	 }
  
 	 /* .container {
 		 overflow: hidden;
@@ -1533,12 +1538,8 @@ http://www.muhammadadamfirdaus.com/
  
 	 main#home .content .scroll-container {
 		 padding-top: 17%;
-		 height: 100vh;
-		 overflow: scroll;
-	 }
- 
-	 footer {
-		 padding-bottom: 20%;
+		 /* height: 100vh;
+		 overflow: scroll; */
 	 }
  
 	 /* mobile main structure */
@@ -2435,11 +2436,19 @@ http://www.muhammadadamfirdaus.com/
  /* end iPad 768px */
  
  @media screen and (min-width: 481px) and (max-width: 800px){
-	 .menu-mobile {
+	 .menu-mobile,
+	 a.search {
 		 -webkit-transform: scale(1.3);
 		 transform: scale(1.3);
 		 top: 32px;
-		 right: 32px;
+	 }
+
+	 .menu-mobile {
+		right: 32px;
+	 }
+
+	 a.search {
+		right: 96px;
 	 }
  
 	 .night-mode .logo-tempo {
@@ -2587,7 +2596,7 @@ http://www.muhammadadamfirdaus.com/
  
 	 .night-mode .logo-tempo {
 		 background-position: -118px 0;
-		 width: 80%;
+		 width: 55%;
 	 }
  
 	 .menu li:last-child {
