@@ -26,19 +26,19 @@ http://www.muhammadadamfirdaus.com/
 	 font: inherit;
 	 vertical-align: baseline;
  }
- 
+
  /* HTML5 display-role reset for older browsers */
  article, aside, details, figcaption, figure,
  footer, header, hgroup, section {
 	 display: block;
  }
- 
+
  html, body {
 	 margin:0;
 	 padding:0;
 	 height:100%;
  }
- 
+
  body, p, span {
 	 font-family: 'RobotoDraft', 'HelveticaNeueW01-45Light', Helvetica, Arial;
 	 font-weight: 400;
@@ -48,30 +48,30 @@ http://www.muhammadadamfirdaus.com/
 	 -webkit-font-smoothing: antialiased;
 	 -moz-osx-font-smoothing: grayscale;
  }
- 
+
  body {
 	 background-color: #f7f7f7;
  }
- 
+
  a {
 	 text-decoration: none;
  }
- 
+
  img {
 	 display:block;
 	 width: 100%;
  }
- 
+
  blockquote, q {
 	 quotes: none;
  }
- 
+
  blockquote:before, blockquote:after,
  q:before, q:after {
 	 content: '';
 	 content: none;
  }
- 
+
  h1, h2, h3, h4, h5, h6 {
 	 font-family: 'RobotoDraft', Helvetica, Arial;
 	 font-weight: 500;
@@ -81,70 +81,70 @@ http://www.muhammadadamfirdaus.com/
 	 -webkit-font-smoothing: antialiased;
 	 -moz-osx-font-smoothing: grayscale;
  }
- 
+
  h1 {
 	 font-size:32px;
  }
- 
+
  h2 {
 	 font-size: 28px;
  }
- 
+
  h3 {
 	 font-size:24px;
  }
- 
+
  h4 {
 	 font-size:20px;
  }
- 
+
  h5 {
 	 font-size:16px;
  }
- 
+
  h6 {
 	 font-size:14px;
  }
- 
+
  table {
 	 border-collapse: collapse;
 	 border-spacing: 0;
  }
- 
+
  .clearfix:after {
 	 content: "";
 	 display: table;
 	 clear: both;
  }
- 
+
  .container {
 	 min-height:100%;
 	 margin: 0 auto;
 	 position:relative;
  }
- 
+
  .col {
 	 float: left;
  }
- 
+
  .w-30 {
 	 width: 30%;
  }
- 
+
  .w-50 {
 	 width: 50%;
  }
- 
+
  .w-70 {
 	 width: 70%;
  }
- 
+
  .desktop.active,
  .mobile.active,
  .newsflash {
 	 display: block;
  }
- 
+
  .desktop,
  .mobile,
  .logo-tempo span {
@@ -154,14 +154,14 @@ http://www.muhammadadamfirdaus.com/
  main {
 	 padding-bottom: 168px;
  }
- 
+
  footer {
 	 position: absolute;
 	 bottom: 0;
 	 left: 0;
 	 width: 100%;
  }
- 
+
  .preload {
 	 width:100%;
 	 height:100%;
@@ -177,48 +177,48 @@ http://www.muhammadadamfirdaus.com/
 	 opacity: 0;
 	 visibility: hidden;
  }
- 
+
  .preload.preload-active {
 	 opacity: 1;
 	 visibility: visible;
 	 -webkit-transition: opacity 0.5s ease;
 	 transition: opacity 0.5s ease;
  }
- 
+
  .preload-disabled {
 	 opacity: 0;
 	 visibility: hidden;
 	 -webkit-transition: opacity 0.5s ease;
 	 transition: opacity 0.5s ease;
  }
- 
+
  .tempo-2017-tutorial .button-close {
 	 background: #e53935;
 	 color: #fff;
  }
- 
+
  .swiper-container.tempo-2017-tutorial {
 	 width: 100%;
 	 height: 100%;
 	 position: relative;
 	 color: #fff;
  }
- 
+
  .swiper-container.tempo-2017-tutorial .swiper-pagination {
 	 position: absolute;
 	 bottom: 0;
  }
- 
+
  .tempo-2017-tutorial .wrapper {
 	 padding: 0 20px;
 	 text-align: center;
  }
- 
+
  .tempo-2017-tutorial .swiper-slide .wrapper img {
 	 width: 60%;
 	 margin: 10px auto;
  }
- 
+
  .tempo-2017-tutorial .wrapper > h2 {
 	 font-family: 'NativeLand', Helvetica, Arial;
 	 font-size: 62px;
@@ -226,33 +226,33 @@ http://www.muhammadadamfirdaus.com/
 	 text-align: center;
 	 margin-bottom: 20px;
  }
- 
+
  .tempo-2017-tutorial .wrapper p {
 	 font-family: 'HelveticaNeueW01-45Light', Helvetica, Arial;
 	 font-size: 12px;
 	 line-height: 24px;
  }
- 
+
  .tempo-2017-tutorial .swiper-slide:first-child {
 	 display: table;
  }
- 
+
  .tempo-2017-tutorial .swiper-slide:first-child .wrapper {
 	 display: table-cell;
 	 vertical-align: middle;
 	 padding: 0 20%;
  }
- 
+
  .tempo-2017-tutorial .swiper-slide:first-child h2 {
 	 font-size: 45px;
 	 line-height: 50px;
  }
- 
+
  .tempo-2017-tutorial .swiper-slide:first-child h3 {
 	 font-size: 14px;
  }
- 
- 
+
+
  .tempo-2017-tutorial .swiper-slide:last-child .wrapper {
 	 display: flex;
 	 display: -webkit-flex;
@@ -262,7 +262,7 @@ http://www.muhammadadamfirdaus.com/
 	 justify-content: center;
 	 height: 100%;
  }
- 
+
  /* fonts */
  /* @font-face {
 	 font-family: 'Helvetica';
@@ -274,7 +274,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'HelveticaNeueW01-45Light';
 	 src:	url('https://cdn.tmpo.co/css/fonts/HelveticaNeueW01-45Light.eot?#iefix') format('embedded-opentype'),
@@ -284,7 +284,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'HelveticaNeueW01-55Roman';
 	 src:	url('https://cdn.tmpo.co/css/fonts/HelveticaNeueW01-55Roman.eot?#iefix') format('embedded-opentype'),
@@ -294,7 +294,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'Impact';
 	 src:	url('https://cdn.tmpo.co/css/fonts/Impact.eot?#iefix') format('embedded-opentype'),
@@ -304,7 +304,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'NativeLand';
 	 src:	url('https://cdn.tmpo.co/css/fonts/NativeLand.eot?#iefix') format('embedded-opentype'),
@@ -314,7 +314,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'Poppins-Light';
 	 src:	url('https://cdn.tmpo.co/css/fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
@@ -324,7 +324,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'Roboto-Light';
 	 src:	url('https://cdn.tmpo.co/css/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
@@ -334,7 +334,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'Roboto-Bold';
 	 src:	url('https://cdn.tmpo.co/css/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
@@ -344,7 +344,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'RobotoDraft';
 	 font-style: normal;
@@ -352,7 +352,7 @@ http://www.muhammadadamfirdaus.com/
 	 src: local('RobotoDraft Thin'), local('RobotoDraft-Thin'), url(fonts/RobotoDraft-100.woff2) format('woff2');
 	 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
  }
- 
+
  @font-face {
 	 font-family: 'RobotoDraft';
 	 font-style: normal;
@@ -360,7 +360,7 @@ http://www.muhammadadamfirdaus.com/
 	 src: local('RobotoDraft Light'), local('RobotoDraft-Light'), url(fonts/RobotoDraft-300.woff2) format('woff2');
 	 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
  }
- 
+
  @font-face {
 	 font-family: 'RobotoDraft';
 	 font-style: normal;
@@ -368,7 +368,7 @@ http://www.muhammadadamfirdaus.com/
 	 src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(fonts/RobotoDraft-400.woff2) format('woff2');
 	 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
  }
- 
+
  @font-face {
 	 font-family: 'RobotoDraft';
 	 font-style: normal;
@@ -376,7 +376,7 @@ http://www.muhammadadamfirdaus.com/
 	 src: local('RobotoDraft Medium'), local('RobotoDraft-Medium'), url(fonts/RobotoDraft-500.woff2) format('woff2');
 	 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
  }
- 
+
  @font-face {
 	 font-family: 'Roboto-Light';
 	 src:	url('https://cdn.tmpo.co/css/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
@@ -386,7 +386,7 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: normal;
 	 font-style: normal;
  }
- 
+
  @font-face {
 	 font-family: 'Roboto-Bold';
 	 src:	url('https://cdn.tmpo.co/css/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
@@ -397,33 +397,33 @@ http://www.muhammadadamfirdaus.com/
 	 font-style: normal;
  } */
 
- @font-face{font-family:Roboto;font-style:normal;font-weight:100;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
- @font-face{font-family:Roboto;font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
- @font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v18/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
- @font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
- @font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://font.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
- 
+ @font-face{font-family:RobotoDraft;font-style:normal;font-weight:100;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
+ @font-face{font-family:RobotoDraft;font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
+ @font-face{font-family:RobotoDraft;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v18/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
+ @font-face{font-family:RobotoDraft;font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
+ @font-face{font-family:RobotoDraft;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://font.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
+
  /* colors */
  .red-500 {
 	 background-color: rgba(244,67,54,1);
 	 color: #fff;
  }
- 
+
  .red-a200 {
 	 background-color: #ff5252;
 	 color: #fff;
  }
- 
+
  /* mulai dari bawah ini */
  .container-desktop {
 	 width: 1064px;
 	 margin: 0 auto;
  }
- 
+
  .wrapper {
 	 padding: 0 20px;
  }
- 
+
  header {
 	 -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 	 -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
@@ -431,7 +431,7 @@ http://www.muhammadadamfirdaus.com/
 	 position: relative;
 	 background: #ffffff;
  }
- 
+
  .header-top {
 	 display: block;
 	 color: #ffffff;
@@ -445,7 +445,7 @@ http://www.muhammadadamfirdaus.com/
 	 width: 100%;
 	 height: 30px;
  }
- 
+
  .header-top span {
 	 font-family: 'RobotoDraft', Helvetica, Arial;
 	 font-size: 10px;
@@ -453,7 +453,7 @@ http://www.muhammadadamfirdaus.com/
 	 line-height: 28px;
 	 letter-spacing: 0.10em;
  }
- 
+
  .header-main {
 	 display: table;
 	 height: 100px;
@@ -461,12 +461,12 @@ http://www.muhammadadamfirdaus.com/
 	 position: relative;
 	 border-bottom: 0.5px solid #ccc;
  }
- 
+
  .header-main > div {
 	 display: table-cell;
 	 vertical-align: middle;
  }
- 
+
  .logo-tempo {
 	 display: inline-block;
 	 vertical-align: middle;
@@ -477,7 +477,7 @@ http://www.muhammadadamfirdaus.com/
 	 background-repeat: no-repeat;
 	 background-size: 235%;
  }
- 
+
  .newsflash h2.col {
 	 display: inline-block;
 	 text-transform: uppercase;
@@ -490,17 +490,17 @@ http://www.muhammadadamfirdaus.com/
 	 font-weight: 400;
 	 letter-spacing: 1.3px;
  }
- 
+
  .swiper-container.head-focus {
 	 height: 20px;
  }
- 
+
  .head-focus .swiper-slide a {
 	 text-decoration: none;
 	 color: #000;
 	 display: block;
  }
- 
+
  .head-focus .swiper-slide h2 {
 	 font-size: 12px;
 	 line-height: 22px;
@@ -516,10 +516,42 @@ http://www.muhammadadamfirdaus.com/
 	background-size: 370px;
 	background-position: -58px -90px;
  }
- 
+
  .header-bottom {
 	 background: #f9f8f7;
  }
+
+ .language {
+  position: relative;
+}
+
+.language > div {
+	display: inline-block;
+}
+
+.language .flags {
+  display: inline-block;
+  background-image: url(../images/sprites.png);
+  background-repeat: no-repeat;
+  background-size: 230px;
+  width: 8px;
+  height: 16px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.language .country {
+  color: #fff;
+  font-size: 13px;
+}
+
+.language .id .flags {
+  background-position: 0 -75px;
+}
+.language .en .flags {
+  background-position: -17px -75px;
+}
+
 
  main.search-active {
 	-webkit-transform: translate3d(0,50px,0);
@@ -563,20 +595,20 @@ http://www.muhammadadamfirdaus.com/
  input[type="search"]::-webkit-search-results-decoration {
 	 display: none;
  }
- 
- 
+
+
  /* begin MENU */
  nav {
 	 box-sizing: border-box;
 	 list-style: none;
  }
- 
+
  .menu div:before {
 	 content:'';
 	 /*border-top:1px solid #fff;*/
 	 display: block;
  }
- 
+
  .menu li {
 	 float:left;
 	 position:relative;
@@ -584,11 +616,11 @@ http://www.muhammadadamfirdaus.com/
 	 height:40px;
 	 padding:0 10px;
  }
- 
+
  .menu li.addon {
 	 display: none;
  }
- 
+
  .menu li a {
 	 color: #aaa;
 	 font-family: 'RobotoDraft', Helvetica, Arial;
@@ -598,15 +630,15 @@ http://www.muhammadadamfirdaus.com/
 	 text-decoration:none;
 	 text-transform:uppercase;
  }
- 
+
  .menu li a {
 	 padding:10px 5px;
  }
- 
+
  .menu li:nth-child(2) {
 	 padding-left:0;
  }
- 
+
  .menu li a:hover {
 	 color:#ccc;
 	 -moz-transition: background-color 1.5s ease-out;
@@ -614,7 +646,7 @@ http://www.muhammadadamfirdaus.com/
 	 -o-transition: background-color 1.5s ease-out;
 	 transition: background-color 1.5s ease-out;
  }
- 
+
  .menu li ul {
 	 visibility: hidden;
 	 position: absolute;
@@ -624,7 +656,7 @@ http://www.muhammadadamfirdaus.com/
 	 transition: all 0.5s ease;
 	 z-index: 2;
  }
- 
+
  .menu li.sub-menu-active ul {
 	 visibility: visible;
 	 position: absolute;
@@ -633,7 +665,7 @@ http://www.muhammadadamfirdaus.com/
 	 transform: translate3d(0, 3px, 0);
 	 transition: all 0.5s ease;
  }
- 
+
  .menu ul li {
 	 display:block;
 	 z-index: 5;
@@ -642,44 +674,44 @@ http://www.muhammadadamfirdaus.com/
 	 line-height: 40px;
 	 background: rgba(0,0,0,0.85);
  }
- 
+
  .menu ul li a {
 	 display:block;
 	 padding:0 15px;
  }
- 
+
  .menu li ul li:first-child a {
 	 display:block;
 	 padding:0 15px;
  }
- 
+
  .menu li ul li a:hover {
 	 color:rgba(255,255,255,0.75);
  }
- 
+
  .menu-mobile,
  main .navigation {
 	 display:none;
  }
  /* end MENU */
- 
+
  .top-banner.premium-head {
 	 width: 970px;
 	 height: 90px;
 	 margin: 10px auto;
 	 background-color: #ccc;
  }
- 
+
  .premium-head * {
 	 width: 100%;
 	 height: 100%;
 	 display: none;
  }
- 
+
  section li {
 	 list-style: none;
  }
- 
+
  /* title-box */
  .box-title {
 	 width: 160px;
@@ -692,7 +724,7 @@ http://www.muhammadadamfirdaus.com/
 	 text-transform: uppercase;
  }
  /* title box */
- 
+
  .list.list-type-1 .card-type-1 a:nth-of-type(1) img,
  .tab-content li a:nth-of-type(1) img,
  .video a:nth-of-type(1) img {
@@ -704,34 +736,34 @@ http://www.muhammadadamfirdaus.com/
 	 right: -9999px;
 	 margin: auto;
  }
- 
+
  .list.list-type-1 .card-type-1 a:nth-of-type(1) img,
  .tab-content li a:nth-of-type(1) img {
 	 width: auto;
 	 height: 100%;
  }
- 
+
  .video a:nth-of-type(1) img {
 	 width: 100%;
  }
- 
+
  /* headline */
  #headline.headline-mobile-terbaru {
 	 background: #fefefe;
  }
- 
+
  #headline.headline-mobile-terbaru .swiper-slide h2 {
 	 letter-spacing: 0.03em;
 	 padding: 10px 0;
  }
- 
+
  #headline.headline-mobile-terbaru .swiper-slide h3 {
 	 display: inline-block;
 	 text-transform: uppercase;
 	 border: 1px solid #ffffff;
 	 padding: 8px 16px;
  }
- 
+
  #headline.headline-mobile-terbaru .swiper-slide figcaption {
 	 position: absolute;
 	 bottom: 0;
@@ -742,7 +774,7 @@ http://www.muhammadadamfirdaus.com/
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 	 width: 100%;
  }
- 
+
  #headline figcaption a {
 	 display: block;
 	 color: #fff;
@@ -750,23 +782,23 @@ http://www.muhammadadamfirdaus.com/
 	 padding: 0 20px;
  }
  /* end headline */
- 
+
  .card .wrapper {
 	 background: none;
  }
- 
+
  /* tab */
  .tab,
  .tab-pagination {
 	 position: relative;
  }
- 
+
  .tab-pagination {
 	 height: 35px;
 	 border-bottom: 1px solid;
 	 margin-bottom: 10px;
  }
- 
+
  .tab-pagination a {
 	 color: #333;
 	 display: inline-block;
@@ -778,7 +810,7 @@ http://www.muhammadadamfirdaus.com/
 	 text-align: center;
 	 text-decoration: none;
  }
- 
+
  .tab-pagination > a:nth-of-type(1) {
 	 width: 160px;
 	 font-size: 11px;
@@ -787,12 +819,12 @@ http://www.muhammadadamfirdaus.com/
 	 margin-left: 0;
 	 text-transform: uppercase;
  }
- 
+
  .tab-pagination > div.col {
 	 float: right;
 	 text-align: right;
  }
- 
+
  .tab-content {
 	 opacity: 0;
 	 visibility: hidden;
@@ -800,38 +832,38 @@ http://www.muhammadadamfirdaus.com/
 	 top: 0;
 	 left: 0;
  }
- 
+
  .tab-content li {
 	 display: inline-block;
 	 float: right;
 	 width: 50%;
 	 margin-bottom: 20px;
  }
- 
+
  .tab-content li:last-child {
 	 margin-bottom: 0;
  }
- 
+
  .tab-content li h2,
  .tab-content li p {
 	 color: #333;
 	 font-size: 14px;
 	 line-height: 18px;
  }
- 
+
  .tab-content li h2 {
 	 height: 70px;
 	 overflow: hidden;
  }
- 
+
  .tab-content li span {
 	 font-size: 8px;
  }
- 
+
  .tab-content li.wrapper {
 	 padding: 0;
  }
- 
+
  .tab-content li a:nth-of-type(1) {
 	 width: 90px;
 	 height: 90px;
@@ -839,57 +871,57 @@ http://www.muhammadadamfirdaus.com/
 	 float: left;
 	 position: relative;
  }
- 
+
  .tab-content li a:nth-of-type(2) {
 	 width: 70%;
  }
- 
+
  .tab-content li a:nth-of-type(2) * {
 	 margin-left: 10px;
  }
- 
+
  .tab-content > li:nth-of-type(1) {
 	 float: left;
 	 min-height: 400px;
 	 margin: 0;
  }
- 
+
  .tab-content li:nth-of-type(1) .wrapper {
 	 padding: 0;
  }
- 
+
  .tab-content li:nth-of-type(1) a:nth-of-type(1) {
 	 width: 100%;
 	 height: 100%;
  }
- 
+
  .tab-content li:nth-of-type(1) a:nth-of-type(2) {
 	 width: 100%;
  }
- 
+
  .tab-content li:nth-of-type(1) a:nth-of-type(1) img {
 	 width: 100%;
 	 position: static;
  }
- 
+
  .tab-content li:nth-of-type(1) h2.title {
 	 font-size: 18px;
 	 line-height: 22px;
 	 height: auto;
 	 margin: 5% 0;
  }
- 
+
  .tab-content li:nth-of-type(1) p {
 	 font-family: 'RobotoDraft', Helvetica, Arial;
 	 font-weight: 400;
 	 letter-spacing: 0.01em;
 	 margin-left: 0;
  }
- 
+
  .tab-content li:nth-of-type(1) span {
 	 display: none;
  }
- 
+
  .tab-content.tab-active {
 	 opacity: 1;
 	 visibility: visible;
@@ -897,25 +929,25 @@ http://www.muhammadadamfirdaus.com/
 	 transition: opacity 0.5s ease;
  }
  /* end tab */
- 
+
  .list.list-type-1.terpopuler .tab-pagination > a:nth-of-type(1) {
 	 background-color: rgba(229,57,53,1); /* #e53935 red 500 primary */
 	 color: #fff;
  }
- 
+
  .list.list-type-1.terpopuler .tab-pagination {
 	 border-color: rgba(229,57,53,1);
  }
- 
+
  .list.list-type-1.terpopuler > .tab {
 	 height: 400px;
  }
- 
+
  .center {
 	 display: flex;
 	 display: -webkit-flex;
  }
- 
+
  /* button */
  a.button {
 	 display: inline-block;
@@ -927,44 +959,44 @@ http://www.muhammadadamfirdaus.com/
 	 font-size: 12px;
 	 margin: 10px auto;
  }
- 
- 
+
+
  footer {
 	 background: #333;
 	 z-index: 1;
  }
- 
+
  footer .wrapper {
 	 padding: 20px;
  }
- 
+
  footer * {
 	 color: #fff;
 	 font-size: 90%;
  }
- 
+
  footer p {
 	 text-align: center;
  }
- 
+
  footer hr {
 	 border: 0;
 	 height: 2px;
 	 background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
  }
- 
+
  footer .extra {
 	 margin-top: 10px;
  }
- 
+
  footer .extra .col:nth-of-type(2) {
 	 text-align: right;
  }
- 
+
  footer .extra .col:nth-of-type(2) a {
 	 margin-left: 10px;
  }
- 
+
  .social-media {
 	 position: relative;
 	 display: flex;
@@ -975,11 +1007,11 @@ http://www.muhammadadamfirdaus.com/
 	 justify-content: center;
 	 margin: 20px 0;
  }
- 
+
  .social-media li {
 	 display: inline-block;
  }
- 
+
  .social-media a {
 	 display: block;
 	 width: 32px;
@@ -988,73 +1020,73 @@ http://www.muhammadadamfirdaus.com/
 	 background-repeat: no-repeat;
 	 background-size: 420px;
  }
- 
+
  .social-media .facebook {
 	 background-position: -32px -34px;
  }
- 
+
  .social-media .instagram {
 	 background-position: -95px -34px;
  }
- 
+
  .social-media .twitter {
 	 background-position: -128px -34px;
  }
- 
+
  .social-media .whatsapp {
 	 background-position: -160px -34px;
  }
- 
+
  .social-media .line {
 	 background-position: -190px -34px;
  }
- 
+
  .social-media .youtube {
 	 background-position: -222px -34px;
  }
- 
+
  /* min-width:  800px */
  @media screen and (min-width: 801px){
 	 .swiper-container.content {
 		 width: 1064px;
 	 }
- 
+
 	 .pic-zoom img{
 		 -webkit-transform: scale3d(1, 1, 1);
 		 transform: scale3d(1, 1, 1);
 		 transition: all 1s ease-out;
 	 }
- 
+
 	 .pic-zoom img:hover {
 		 -webkit-transform: scale3d(1.2, 1.2, 1.2);
 		 transform: scale3d(1.2, 1.2, 1.2);
 		 transition: all 0.8s ease;
 	 }
- 
+
 	 .pic-zoom .swiper-slide:nth-of-type(1) img,
 	 .pic-zoom .tab-content:nth-of-type(1) img {
 		 transition: all 2.5s ease-out;
 	 }
- 
+
 	 .pic-zoom .swiper-slide:nth-of-type(1) img:hover,
 	 .pic-zoom .tab-content:nth-of-type(1) img:hover {
 		 transition: all 5.5s linear;
 	 }
- 
+
 	 .swiper-container.content > .swiper-wrapper,
 	 #headline.swiper-container .swiper-wrapper {
 		 display: block;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide:nth-of-type(1) {
 		 width: 50%;
 		 height: 300px;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide:nth-of-type(1) .wrapper {
 		 /*padding: 0 5px 0 0;*/
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide {
 		 width: 25%;
 		 height: 150px;
@@ -1063,80 +1095,80 @@ http://www.muhammadadamfirdaus.com/
 		 border-bottom: 1px solid #fff;
 		 box-sizing: border-box;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide h2 {
 		 font-size: 14px;
 		 line-height: 1.3em;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide h3 {
 		 font-size: 8px;
 		 padding: 4px 10px;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide:nth-of-type(1) h2 {
 		 font-size: 20px;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru .swiper-slide:nth-of-type(1) h3 {
 		 font-size: 12px;
 	 }
- 
+
 	 #headline .swiper-pagination {
 		 display: none;
 	 }
- 
+
 	 #headline .swiper-slide a:nth-of-type(1) {
 		 overflow: hidden;
 		 display: block;
 	 }
- 
+
 	 .list.list-type-1.col {
 		 float: right;
 	 }
- 
+
 	 .list.list-type-1.terpopuler.col {
 		 float: left;
 	 }
- 
+
 	 /* update terbaru desktop */
 	 #update.list.list-type-1 > a:nth-of-type(1) {
 		 margin-left: 20px;
 	 }
- 
+
 	 #update.list.list-type-1 li:nth-of-type(1).wrapper {
 		 border-top: 1px solid #f44336;
 		 padding-top: 10px;
 	 }
- 
+
 	 #update.list.list-type-1 li a {
 		 display: inline-block;
 	 }
- 
+
 	 #update.list.list-type-1 li a:nth-of-type(1) {
 		 width: 90px;
 		 height: 90px;
 		 overflow: hidden;
 		 position: relative;
 	 }
- 
+
 	 #update.list.list-type-1 li.wrapper {
 		 padding: 0;
 		 margin-left: 20px;
 	 }
- 
+
 	 #update.list.list-type-1 li .wrapper {
 		 padding: 0;
 	 }
- 
+
 	 #update.list.list-type-1 li a:nth-of-type(2) {
 		 width: 65%;
 	 }
- 
+
 	 #update.list.list-type-1 li a:nth-of-type(2) * {
 		 margin-left: 10px;
 	 }
- 
+
 	 #update.list.list-type-1 li a:nth-of-type(2) h2 {
 		 display: block;
 		 color: #000;
@@ -1146,7 +1178,7 @@ http://www.muhammadadamfirdaus.com/
 		 overflow: hidden;
 		 margin-bottom: 5px;
 	 }
- 
+
 	 .list.list-type-1.terpopuler li span,
 	 #update.list.list-type-1 li a:nth-of-type(2) span {
 		 font-size: 10px;
@@ -1155,33 +1187,33 @@ http://www.muhammadadamfirdaus.com/
 	 /* end update terbaru desktop */
  }
  /* end min-width: 800px */
- 
+
  /* General Mobile */
  @media screen and (max-width: 800px){
 	 * {
 		 -webkit-tap-highlight-color: rgba(0,0,0,0);
 		 -moz-tap-highlight-color: rgba(0,0,0,0);
 	 } /* hide blink mobile touch */
- 
+
 	 .newsflash,
 	 .tab-content li p,
 	 .container-desktop .date span,
 	 .tab-pagination {
 		 display: none;
 	 }
- 
+
 	 .tab-content li:nth-of-type(1) span {
 		 display: block;
 	 }
- 
+
 	 body {
 		 background-color: #ebebeb;
 	 }
- 
+
 	 .card .wrapper {
 		 background-color: #fefefe;
 	 }
- 
+
 	 /* night mode */
 	 .night-mode main .swiper-container.content,
 	 .night-mode .list.list-type-1 li,
@@ -1189,60 +1221,60 @@ http://www.muhammadadamfirdaus.com/
 		 color: rgba(255,255,255,1);
 		 background-color: rgba(38,50,56,1); /* level 1 */
 	 }
- 
+
 	 .night-mode .menu-mobile a,
 	 .night-mode .menu-mobile:before,
 	 .night-mode .menu-mobile:after {
 		 color: rgba(255,255,255,1);
 		 background-color: rgba(255,255,255,1);
 	 }
- 
+
 	 .night-mode header .menu-mobile {
 		 background-color: rgba(0,0,0,0);
 	 }
- 
+
 	 .night-mode,
 	 .night-mode header *,
 	 .night-mode main .swiper-container.navigation {
 		 background-color: rgba(55,71,79,1); /* level 2 */
 	 }
- 
+
 	 .night-mode #headline.headline-mobile-terbaru,
 	 .night-mode .card .wrapper,
 	 .night-mode .card * {
 		 background-color: rgba(69,90,100,1); /* level 3 */
 		 /*background-color: rgba(84,110,122,1); /* level 4 */
 	 }
- 
+
 	 .night-mode .card a:nth-of-type(2) *,
 	 .night-mode .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(1),
 	 .night-mode .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) h2.title {
 		 color: rgba(255,255,255,1);
 	 }
- 
+
 	 .night-mode .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(1),
 	 .night-mode .swiper-pagination-bullet-active:before {
 		 border: 1px solid rgba(255,255,255,1);
 	 }
- 
+
 	 .night-mode .swiper-pagination-bullet-active {
 		 background-color: rgba(255,255,255,1);
 	 }
- 
+
 	 .night-mode .swiper-pagination-bullet {
 		 background-color: #ccc;
 	 }
- 
+
 	 .night-mode .navigation a.swiper-slide.swiper-slide-active {
 		 color: rgba(66,145,245,1);
 		 border-bottom: 2px solid rgba(66,145,245,1);
 	 }
- 
+
 	 .night-mode figcaption * {
 		 background-color: rgba(0,0,0,0);
 	 }
 	 /* end night mode */
- 
+
 	 header {
 		 -webkit-box-shadow: none;
 		 -moz-box-shadow: none;
@@ -1253,7 +1285,7 @@ http://www.muhammadadamfirdaus.com/
 		 z-index: 10;
 		 backface-visibility: hidden;
 	 }
- 
+
 	 .logo-tempo {
 		 width: 100%;
 		 height: 45px;
@@ -1261,15 +1293,15 @@ http://www.muhammadadamfirdaus.com/
 		 background-size: 485px 235px;
 		 margin-left: 20px;
 	 }
- 
+
 	 .header-top {
 		 height: 4px;
 	 }
- 
+
 	 .header-main {
 		 padding-top: 0;
 	 }
- 
+
 	 /* reset  width & height */
 	 /* width reset */
 	 .container-desktop,
@@ -1278,17 +1310,17 @@ http://www.muhammadadamfirdaus.com/
 	 .tab-content li {
 		 width: 100%;
 	 }
- 
+
 	 /* height reset */
 	 .container {
 		 min-height: 100%;
 	 }
- 
+
 	 .tab-content li:nth-of-type(1) {
 		 min-height: auto;
 	 }
 	 /* end reset */
- 
+
 	 .menu-mobile {
 		 display:block;
 		 text-align: center;
@@ -1300,7 +1332,7 @@ http://www.muhammadadamfirdaus.com/
 		 z-index: 9;
 		 background-color: rgba(0,0,0,0);
 	 }
- 
+
 	 .menu-mobile a,
 	 .menu-mobile:before,
 	 .menu-mobile:after {
@@ -1311,17 +1343,17 @@ http://www.muhammadadamfirdaus.com/
 		 width: 100%;
 		 height: 2px;
 	 }
- 
+
 	 .menu-mobile:before {
 		 -webkit-transform: translate(0, 0);
 		 transform: translate(0, 0);
 	 }
- 
+
 	 .menu-mobile:after {
 		 -webkit-transform: translate(0, 8px);
 		 transform: translate(0, 8px);
 	 }
- 
+
 	 .menu-mobile a {
 		 color: #e53935;
 		 font-size: 9px;
@@ -1334,14 +1366,14 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transition: -webkit-transform 0.3s ease;
 		 transition: transform 0.3s ease;
 	 }
- 
+
 	 .menu-mobile:before,
 	 .menu-mobile:after {
 		 content:'';
 		 -webkit-transition: -webkit-transform 0.3s ease;
 		 transition: transform 0.3s ease;
 	 }
- 
+
 	 .menu-mobile.close a {
 		 font-size: 8px;
 		 line-height: 28px;
@@ -1353,32 +1385,32 @@ http://www.muhammadadamfirdaus.com/
 		 transition: all 0.3s ease;
 		 /* color: #fff; */
 	 }
- 
+
 	 .menu-mobile.close:before {
 		 -webkit-transform: rotate(45deg) translate(8px, 8px);
 		 transform: rotate(45deg) translate(8px, 8px);
 	 }
- 
+
 	 .menu-mobile.close:after {
 		 -webkit-transform: rotate(-45deg) translate(-8px, 8px);
 		 transform: rotate(-45deg) translate(-8px, 8px);
 	 }
- 
+
 	 .menu-mobile.close:before,
 	 .menu-mobile.close:after {
 		 -webkit-transition: all 0.3s ease;
 		 transition: all 0.3s ease;
 		 /* background: #fff; */
 	 }
- 
+
 	 nav {
 		 border:0;
 	 }
- 
+
 	 .menu {
 		 background:rgba(0,0,0,0.75);
 	 }
- 
+
 	 .menu {
 		 position: fixed;
 		 right: 0;
@@ -1390,7 +1422,7 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transform: translate3d(100%, 0, 0);
 		 transform: translate3d(100%, 0, 0);
 	 }
- 
+
 	 .menu .scroll-container {
 		padding-top: 20%;
 		height: 100vh;
@@ -1400,7 +1432,7 @@ http://www.muhammadadamfirdaus.com/
 		float: none;
 		position: relative;
 	}
- 
+
 	 .menu-expanded {
 		 width:80%;
 		 z-index: 9;
@@ -1410,7 +1442,7 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transition: -webkit-transform 0.3s ease;
 		 transition: transform 0.3s ease-in;
 	 }
- 
+
 	 .menu-collapsed {
 		 /*width:0;*/
 		 -webkit-transform: translate3d(100%,0,0);
@@ -1418,32 +1450,32 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transition: -webkit-transform 0.3s ease-out;
 		 transition: transform 0.3s ease-out;
 	 }
- 
+
 	 .menu div:before {
 		 border-top:0;
 	 }
- 
+
 	 .menu .addon {
 		 position: relative;
 		 color: rgba(255,255,255,1);
 		 font-size: 120%;
 	 }
- 
+
 	 .menu .addon a {
 		 display: block;
 	 }
- 
+
 	 .menu a.night-mode-button {
- 
+
 	 }
- 
+
 	 .menu .night-mode-button::before,
 	 .menu .night-mode-button::after {
 		 content: '';
 		 display: inline-block;
 		 position: absolute;
 	 }
- 
+
 	 .menu .night-mode-button::before {
 		 /*right: 0;
 		 top: 10px;*/
@@ -1453,7 +1485,7 @@ http://www.muhammadadamfirdaus.com/
 		 border-radius: 25px;
 		 background: rgba(125,125,125,1);
 	 }
- 
+
 	 .menu .night-mode-button:after {
 		 width: 40px;
 		 height: 40px;
@@ -1465,7 +1497,7 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transition: all 0.5s ease;
 		 transition: all 0.5s ease;
 	 }
- 
+
 	 .menu .night-mode-button.night-mode-button-active::after {
 		 background: rgba(66,165,245,1);
 		 -webkit-box-shadow: 0px 0px 50px 25px rgba(66,165,245,0.4);
@@ -1476,7 +1508,7 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transition: all 0.5s ease;
 		 transition: all 0.5s ease;
 	 }
- 
+
 	 .menu li {
 		 float:none;
 		 height: auto;
@@ -1484,50 +1516,50 @@ http://www.muhammadadamfirdaus.com/
 		 margin: 40px 0;
 		 padding: 0 28px 0 28px;
 	 }
- 
+
 	 .menu li:first-child {
 		 display: block;
 	 }
- 
+
 	 .menu li:nth-child(2) {
 		 padding-left: 24px;
 	 }
- 
+
 	 .menu li:nth-child(2) a {
 		 padding-left: 6px;
 	 }
- 
+
 	 .menu li:last-child {
 		 margin-bottom: 70%;
 	 }
- 
+
 	 .menu li ul li:last-child {
 		 margin-bottom: 0;
 	 }
- 
+
 	 .menu li ul {
 		 display: none;
 		 position: relative;
 		 top:0;
 	 }
- 
+
 	 .menu li ul li {
 		 background:none;
 	 }
- 
+
 	 .menu li ul li:first-child {
 		 margin-top:20px;
 	 }
- 
+
 	 .menu li ul li,
 	 .menu li ul li:first-child {
 		 padding-left: 36px;
 	 }
- 
+
 	 .menu li ul li:first-child a {
 		 padding-left: 15px;
 	 }
- 
+
 	 .menu li a {
 		 font-size: 160%;
 		 line-height: 40px;
@@ -1537,22 +1569,22 @@ http://www.muhammadadamfirdaus.com/
 		top: 5px;
 		right: 60px;
 	 }
- 
+
 	 /* .container {
 		 overflow: hidden;
 	 } */
- 
+
 	 main#home .content .scroll-container {
 		 padding-top: 17%;
 		 /* height: 100vh;
 		 overflow: scroll; */
 	 }
- 
+
 	 /* mobile main structure */
 	 header.night-mode .menu-mobile a {
 		 background: #e53935;
 	 }
- 
+
 	 main .swiper-container.navigation {
 		 display: block;
 		 width: 100%;
@@ -1562,23 +1594,23 @@ http://www.muhammadadamfirdaus.com/
 		 box-shadow: 0px 6px 4px -5px rgba(0,0,0,0.1);
 		 z-index: 2;
 	 }
- 
+
 	 main .swiper-container.content {
 		 height: 80%;
 		 box-sizing: border-box;
 		 display: flex;
 		 background: #f1f1f1;
 	 }
- 
+
 	 main .swiper-container.navigation .swiper-wrapper {
 		 /*padding: 10px 0;*/
 	 }
- 
+
 	 main .swiper-container.navigation .swiper-slide:nth-child(2n+1) {
 		 /*padding: 0 10px;*/
 		 margin-left: 0;
 	 }
- 
+
 	 main .navigation a.swiper-slide {
 		 padding: 1px 0;
 		 /*background: rgba(244,67,54,0.75);*/
@@ -1594,7 +1626,7 @@ http://www.muhammadadamfirdaus.com/
 		 width: 100%;
 		 height: 16px;
 	 }
- 
+
 	 main .navigation a.swiper-slide.swiper-slide-active {
 		 /*background: rgba(244,67,54,1);*/
 		 color: rgba(244,67,54,1);
@@ -1603,35 +1635,35 @@ http://www.muhammadadamfirdaus.com/
 		 box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);*/
 		 border-bottom: 2px solid rgba(244,67,54,1);
 	 }
- 
+
 	 main .content .swiper-slide:nth-of-type(1) {
 		 /*background: #fff000;*/
 	 }
- 
+
 	 main .content .swiper-slide:nth-of-type(2) {
 		 /*background: #ff0000;*/
 	 }
- 
+
 	 /* ads */
 	 .ads,
 	 .ads * {
 		 margin: 0 auto;
 	 }
- 
+
 	 .ads a {
 		 display: block;
 	 }
- 
+
 	 .top-banner,
 	 .bottom-banner {
 		 width: 320px;
 	 }
- 
+
 	 .rectangle a {
 		 width: 300px;
 		 height: 250px;
 	 }
- 
+
 	 /* bottom ads desktop */
 	 .bottom-banner {
 		 position: fixed;
@@ -1640,11 +1672,11 @@ http://www.muhammadadamfirdaus.com/
 		 width: 100%;
 		 z-index: 9;
 	 }
- 
+
 	 .bottom-banner .swiper-container {
 		 position: relative;
 	 }
- 
+
 	 .bottom-banner button {
 		 /*width: 32px;*/
 		 /*height: 28px;*/
@@ -1663,20 +1695,20 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-appearance: none;
 		 border: 0;
 	 }
- 
+
 	 .bottom-banner a {
 		 display: block;
 		 margin: 0 auto;
 		 -webkit-transform: -webkit-translate3d(0, 0, 0);
 		 transform: translate3d(0, 0, 0);
 	 }
- 
+
 	 .bottom-banner-closed {
 		 -webkit-transform: -webkit-translate3d(0, 150px, 0);
 		 transform: translate3d(0, 150px, 0);
 		 transition: transform 0.5s ease-out;
 	 }
- 
+
 	 .ads-parallax-content {
 		 width: 100%;
 		 height: 100%;
@@ -1684,21 +1716,21 @@ http://www.muhammadadamfirdaus.com/
 		 top: 0;
 		 margin: 0 auto;
 	 }
- 
+
 	 .ads-parallax-fixed {
 		 position: fixed;
 		 top: 0;
 		 width: 100%;
 		 height: 100%;
 	 }
- 
+
 	 .ads-layer {
 		 width: 100%;
 		 height: 400px;
 		 overflow: hidden;
 		 position: relative;
 	 }
- 
+
 	 .ads-layer img {
 		 /*width: 100vmax;*/
 		 z-index: 0;
@@ -1708,7 +1740,7 @@ http://www.muhammadadamfirdaus.com/
 		 transform: translate(-50%,0);
 		 pointer-events: none
 	 }
- 
+
 	 .ads-layer-fixed {
 		 display: block;
 		 width: 100%;
@@ -1718,37 +1750,37 @@ http://www.muhammadadamfirdaus.com/
 		 margin: 0 auto;
 		 transform: translateZ(0);
 	 }
- 
+
 	 .ads-layer-content {
 		 width: 100%;
 		 height: auto;
 		 position: absolute;
 		 left: 50%;
- 
+
 		 /*transform: translateX(-50%);*/
 	 }
- 
+
 	 section#detail > .ads .wrapper {
 		 padding-bottom: 1em;
 	 }
- 
+
 	 .content section li {
 		 list-style: none;
 	 }
- 
+
 	 /* fokus */
 	 #page-1.swiper-slide .fokus {
 		 padding: 5% 0 3%;
 	 }
- 
+
 	 .fokus li {
 		 margin-bottom: 5%;
 	 }
- 
+
 	 .fokus li:last-child {
 		 margin-bottom: 0;
 	 }
- 
+
 	 .fokus h2.title,
 	 .fokus .card-type-2 a:nth-of-type(2) h2,
 	 .list.list-type-1.terpopuler h2.title,
@@ -1759,125 +1791,125 @@ http://www.muhammadadamfirdaus.com/
 		 font-size: 120%;
 		 line-height: 150%;
 	 }
- 
+
 	 .fokus h2.title {
 		 border-bottom: 1px solid #e53935;
 	 }
- 
+
 	 .fokus .card-type-2 {
 		 width: 50%;
 		 margin-top: 5px;
 		 padding: 5px 0;
 	 }
- 
+
 	 .fokus .card-type-2:nth-of-type(1) .wrapper {
 		 margin-right: 5px;
 	 }
- 
+
 	 .fokus .card-type-2:nth-of-type(2) .wrapper {
 		 margin-left: 5px;
 	 }
- 
+
 	 .fokus .card-type-2 a {
 		 display: block;
 		 overflow: hidden;
 		 color: #000;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(1) {
 		 height: 140px;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) {
 		 padding: 4%;
 		 height: 110px;
 		 overflow: hidden;
 	 }
- 
+
 	 .fokus .card-type-2 .wrapper {
 		 padding: 0;
 		 -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
 		 -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
 		 box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) h2 {
 		 padding: 0 4px;
 	 }
 	 /* end fokus */
- 
+
 	 .list h2 {
 		 color: #333;
 	 }
- 
+
 	 .list span {
 		 color: #555;
 	 }
- 
+
 	 .list.list-type-1 li,
 	 .list.list-type-1.terpopuler li {
 		 background: #f3f3f3;
 		 margin-bottom: 10px;
 		 padding: 0 10px;
 	 }
- 
+
 	 .list.list-type-1.gallery li:nth-of-type(1),
 	 .list.list-type-1 li:nth-of-type(1),
 	 section.fokus li:nth-of-type(1) {
 		 margin-top: 10px;
 	 }
- 
+
 	 .list.list-type-1 li:last-child,
 	 .list.list-type-1.terpopuler li:last-child {
 		 margin-bottom: 0;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2),
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2),
 	 .tab-content li:nth-of-type(1) a:nth-of-type(2) {
 		 width: 75%;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) *,
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) * {
 		 padding-left: 5%;
 	 }
- 
+
 	 /* terbaru */
 	 .list.list-type-1 .card-type-1 .wrapper {
 		 padding: 5px;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(1) {
 		 width: 25%;
 		 height: 120px;
 		 overflow: hidden;
 		 position: relative;
 	 }
- 
+
 	 .list.list-type-1 .card a:nth-of-type(2) {
 		 color: #000;
 	 }
 	 /* end terbaru */
- 
+
 	 .tab-content > li:nth-of-type(1) {
 		 margin-bottom: 5px;
 	 }
- 
+
 	 .tab-content li:nth-of-type(1) h2.title {
 		 margin-left: 10px;
 	 }
- 
+
 	 /* terpopuler */
 	 .swiper-container.list.list-type-1.terpopuler #tab.swiper-wrapper {
 		 display: -webkit-flex;
 		 display: flex;
 	 }
- 
+
 	 .tab-content li span {
 		 font-size: inherit;
 	 }
- 
+
 	 .tab-content li:nth-of-type(1) .wrapper,
 	 .list.list-type-1.terpopuler .card-type-1 .wrapper {
 		 padding: 10px;
@@ -1888,11 +1920,11 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-justify-content: center;
 		 justify-content: center;
 	 }
- 
+
 	 .list.list-type-1.terpopuler .card-type-1 a {
 		 color: #e53935;
 	 }
- 
+
 	 .tab-content li:nth-of-type(1) a:nth-of-type(1),
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(1) {
 		 -webkit-border-radius: 50%;
@@ -1905,21 +1937,21 @@ http://www.muhammadadamfirdaus.com/
 		 line-height: 70px;
 		 margin-top: 3px;
 	 }
- 
+
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(1) img {
 		 display: none;
 	 }
- 
+
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) h2.title {
 		 color: #555;
 	 }
- 
+
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) span {
 		 color: #aaa;
 		 margin-top: 2%;
 	 }
 	 /* end terpopuler */
- 
+
 	 /* video */
 	 .video .wrapper a:nth-of-type(1):before {
 		 background: url(../images/sprites.png) no-repeat;
@@ -1933,7 +1965,7 @@ http://www.muhammadadamfirdaus.com/
 		 overflow: hidden;
 		 z-index: 2;
 	 }
- 
+
 	 .card-type-3 a:nth-of-type(1) {
 		 width: 100%;
 		 position: relative;
@@ -1944,42 +1976,42 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-justify-content: center;
 		 justify-content: center;
 	 }
- 
+
 	 .card-type-3 a:nth-of-type(2){
 		 padding: 0 10px;
 	 }
- 
+
 	 .card-type-3 a:nth-of-type(2) span {
 		 margin: 10px 0;
 	 }
- 
+
 	 .card-type-3 .wrapper {
 		 padding: 0;
 	 }
- 
+
 	 .card-type-3 h2 {
 		 margin: 15px 0;
 	 }
- 
+
 	 .video a:nth-of-type(1) {
 		 height: 180px;
 		 overflow: hidden;
 	 }
 	 /* video */
- 
+
 	 #detail .w-70 .wrapper {
 		 padding: 0;
 	 }
- 
+
 	 #detail nav:nth-of-type(1) li {
 		 display: inline-block;
 		 position: relative;
 	 }
- 
+
 	 #detail nav:nth-of-type(1) li:first-child {
 		 margin-left: 0;
 	 }
- 
+
 	 #detail nav:nth-of-type(1) li a:after {
 		 content: '';
 		 background-size: 8px 8px;
@@ -1989,11 +2021,11 @@ http://www.muhammadadamfirdaus.com/
 		 right: -5px;
 		 top: 5px;
 	 }
- 
+
 	 #detail nav:nth-of-type(1) li:last-child a:after {
 		 content: none;
 	 }
- 
+
 	 #detail nav:last-child li a {
 		 display: block;
 		 font-family: 'RobotoDraft', Helvetica, Arial;
@@ -2003,92 +2035,92 @@ http://www.muhammadadamfirdaus.com/
 		 position: relative;
 		 text-transform: uppercase;
 	 }
- 
+
 	 #detail hr {
 		 margin: 5% auto;
 	 }
- 
+
 	 #detail .wrapper {
 		 background: #fff;
 		 padding: 2% 4%;
 	 }
- 
+
 	 #detail h1 {
 		 display: inline-block;
 		 font-size: 120%;
 		 font-weight: 500;
 		 margin: 4% 0 1%;
 	 }
- 
+
 	 #detail .sub-head {
 		 /* margin: 10px 0; */
 	 }
- 
+
 	 #detail .sub-head .author *,
 	 #detail .sub-head span {
 		 display: inline-block;
 	 }
- 
+
 	 article .sub-head > span {
 		 font-size: 10px;
 	 }
- 
+
 	 #detail .sub-head .col:nth-of-type(1) {
 		 margin-bottom: 10px;
 	 }
- 
+
 	 #detail .sub-head:nth-of-type(1) a..pw-widget.__pw-padding-true.__pw-layout-horizontal .pw-button:last-child {
 		 padding-right: 0;
 	 }
- 
+
 	 .w-70 .author:nth-of-type(2) {
 		 padding: 1em 0;
 	 }
- 
+
 	 .author:last-child {
 		 padding: 5% 0;
 	 }
- 
+
 	 #detail article .author h4 {
 		 margin-left: 5px;
 		 font-size: 14px;
 		 color: #e53935;
 	 }
- 
+
 	 .author p {
 		 font-size: 12px;
 	 }
- 
+
 	 .author li,
 	 .author li a {
 		 display: inline-block;
 	 }
- 
+
 	 .author li a {
 		 width: 48px;
 		 height: 48px;
 		 overflow: hidden;
 		 border-radius: 50%;
 	 }
- 
+
 	 #detail > figure:nth-of-type(1) a:nth-of-type(1) {
 		 display: block;
 	 }
- 
+
 	 #detail figure figcaption {
 		 margin: 10px 0;
 	 }
- 
+
 	 #detail figure figcaption p {
 		 color: #777;
 		 font-size: 11px;
 		 font-style: italic;
 	 }
- 
+
 	 #detail p a {
 		 color: #00b0ff;
 	 }
- 
+
 	 #detail p {
 		 color: #333;
 		 font-size: 16px;
@@ -2097,30 +2129,30 @@ http://www.muhammadadamfirdaus.com/
 		 line-height: 22px;
 		 margin: 1em 0;
 	 }
- 
+
 	 #detail > strong {
 		 font-weight: 500;
 	 }
- 
+
 	 #detail > p em {
 		 font-style: italic;
 		 margin-right: 2px;
 	 }
- 
+
 	 #detail > ol,
 	 #detail > ul {
 		 margin: 1em 1em 1em 2em;
 	 }
- 
+
 	 #detail > ul li {
 		 list-style: disc;
 	 }
- 
+
 	 #detail > ol li {
 		 list-style: decimal;
 		 margin: 1em;
 	 }
- 
+
 	 #detail > article h2,
 	 #detail > article h3,
 	 #detail > article h4,
@@ -2129,7 +2161,7 @@ http://www.muhammadadamfirdaus.com/
 		 display: block;
 		 margin: 1em 0;
 	 }
- 
+
 	 #detail p iframe,
 	 #detail iframe.instagram-media,
 	 #detail twitterwidget {
@@ -2141,16 +2173,16 @@ http://www.muhammadadamfirdaus.com/
 	 #section-4 .foto.swiper-container {
 		width: 100%;
 	}
- 
+
 	#section-4 .foto.swiper-container,
 	.gallery-title {
 		background: #000;
 	}
- 
+
 	#section-4 .foto.swiper-container .swiper-wrapper {
 		margin: 30px 0;
 	}
- 
+
 	#section-4 .foto.swiper-container .container-desktop > a:nth-of-type(1) h2 {
 		color: #fff;
 		font-family: 'Poppins-Light', Helvetica, Arial;
@@ -2160,7 +2192,7 @@ http://www.muhammadadamfirdaus.com/
 		margin: 0 0 25px 25px;
 		position: relative;
 	}
- 
+
 	#section-4 .foto.swiper-container .container-desktop > a:nth-of-type(1) h2:after {
 		border: 0;
 		content: '';
@@ -2171,36 +2203,36 @@ http://www.muhammadadamfirdaus.com/
 		height: 1px;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
 	}
- 
+
 	#category #section-4 .foto.swiper-container .container-desktop > h2:nth-of-type(1):after {
 		content: '';
 		background-image: none;
 	}
- 
+
 	#section-4 .foto-home.swiper-container .swiper-slide {
 		background-position: center;
 		background-size: cover;
 		width: 300px;
 		height: 300px;
 	}
- 
+
 	#section-4 .foto-detail.swiper-container .swiper-slide {
 		background-position: center;
 		background-size: cover;
 		width: 720px;
 	}
- 
+
 	#section-4 .foto.swiper-container .swiper-button-next,
 	#section-4 .foto.swiper-container .swiper-button-prev {
 		color: #ff0000;
 		background-color: rgba(0,0,0,0.35);
 	}
- 
+
 	#section-4 .foto.swiper-container .card-type-5 .wrapper {
 		padding: 0;
 		position: relative;
 	}
- 
+
 	#section-4 .foto-home.swiper-container .card-type-5 a:nth-of-type(1).col {
 		display: block;
 		width: 300px;
@@ -2209,7 +2241,7 @@ http://www.muhammadadamfirdaus.com/
 		color: #fff;
 		position: relative;
 	}
- 
+
  /* #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:before,
  #gallery #section-4 .foto-detail.swiper-container .card-type-5 a:nth-of-type(1).col:before {
 		content: '';
@@ -2219,14 +2251,14 @@ http://www.muhammadadamfirdaus.com/
 		background-color: rgba(0,0,0,0.5);
 		z-index: 1;
 	} */
- 
- 
+
+
 	#gallery #section-4 .foto-detail.swiper-container .swiper-slide figcaption {
 		content: '';
 		position: static;
 		background-color: none;
 	}
- 
+
  .foto-home.swiper-container .card-type-5 a:nth-of-type(1).col:hover:before,
  .foto-home.swiper-container .card-type-5 a:nth-of-type(1).col:hover:after,
  #gallery #section-4 .foto-detail.swiper-container .swiper-slide-active .card-type-5 a:nth-of-type(1).col:before {
@@ -2235,26 +2267,26 @@ http://www.muhammadadamfirdaus.com/
 		background-position: -80px -238px;
 		transition: background-color 0.5s ease;
 	}
- 
+
 	#gallery #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:hover:before,
 	#gallery #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:hover:after {
 		z-index: -1;
 	}
- 
+
 	/*@keyframes appear {
 		0% {
 			background-color: rgba(0,0,0,0.5);
 			background-position: -8px -238px;
 			z-index: 1;
 		}
- 
+
 		100% {
 			background-color: rgba(0,0,0,0);
 			background-position: -80px -238px;
 			z-index: 0;
 		}
 	}*/
- 
+
 	#section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:after {
 		content: '';
 		position: absolute;
@@ -2269,28 +2301,28 @@ http://www.muhammadadamfirdaus.com/
 		background-position: -8px -238px;
 		z-index: 2;
 	}
- 
+
 	#gallery #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:after {
 		content: '';
 		background-image: none;
 	}
- 
+
 	#gallery #section-4 .foto.swiper-container .card-type-5 a:nth-of-type(1).col:after {
 		margin: 40% auto;
 	}
- 
+
 	#section-4 .foto.swiper-container .card-type-5 figcaption a * {
 		display: block;
 		padding: 0 10px;
 	}
- 
+
 	#section-4 .foto.swiper-container .card-type-5 figcaption h2.title {
 		color: #fff;
 		font-size: 16px;
 		position: absolute;
 		bottom: 30px;
 	}
- 
+
 	#section-4 .foto.swiper-container .card-type-5 figcaption span {
 		font-size: 10px;
 		/*margin: 10% 0;*/
@@ -2298,11 +2330,11 @@ http://www.muhammadadamfirdaus.com/
 		position: absolute;
 		bottom: 10px;
 	}
- 
+
 	#section-5.clearfix {
 		padding-top: 30px;
 	}
- 
+
 	.pswp h2.title {
 		color: #fff;
 		display: block;
@@ -2310,35 +2342,35 @@ http://www.muhammadadamfirdaus.com/
 		line-height: 22px;
 		padding-bottom: 2%;
 	}
- 
+
 	.pswp span.time {
 		color: #fff;
 		padding-bottom: 10%;
 	}
- 
+
 	#gallery #section-4 {
 		margin: 0 0 30px 0;
 	}
- 
+
 	#gallery .pswp__caption__center {
 		max-width: 728px;
 	}
- 
+
 	#gallery .foto .container-desktop {
 		margin-bottom: 5%;
 	}
- 
+
 	.gallery-title h1,
 	.gallery-title h4,
 	.gallery-title p,
 	.gallery-title span.date {
 		color: #fff;
 	}
- 
+
 	.gallery-title {
 		margin-top: 1em;
 	}
- 
+
 	 .baca-juga {
 		 border: 1px solid #e53935;
 		 float: right;
@@ -2346,7 +2378,7 @@ http://www.muhammadadamfirdaus.com/
 		 padding: 1em;
 		 position: relative;
 	 }
- 
+
 	 .baca-juga h3 {
 		 background: #fbfbfb;
 		 display: block;
@@ -2355,25 +2387,25 @@ http://www.muhammadadamfirdaus.com/
 		 padding: 0 5px;
 		 text-align: center;
 	 }
- 
+
 	 .baca-juga li {
 		 margin: 1em 0;
 	 }
- 
+
 	 .baca-juga li:last-child {
 		 margin: 0;
 	 }
- 
+
 	 .baca-juga li a {
 		 color: #e53935;
 	 }
- 
+
 	 /* tags */
 	 .tags li {
 		 display: inline-block;
 		 margin: 2px 0;
 	 }
- 
+
 	 .tags li a {
 		 background: #00b0ff;
 		 color: #fff;
@@ -2383,7 +2415,7 @@ http://www.muhammadadamfirdaus.com/
 		 padding: 10px 20px;
 	 }
 	 /* end tags */
- 
+
 	 /* comments */
 	 .fb_iframe_widget,
 	 .fb_iframe_widget span,
@@ -2391,27 +2423,27 @@ http://www.muhammadadamfirdaus.com/
 		 min-width: 100% !important;
 		 width: 100% !important;
 	 }
- 
+
 	 .comments-count * {
 		 display: inline-block;
 	 }
 	 /* end comments */
- 
+
 	 /* end article */
 	 section#detail {
 		 padding-bottom: 80%;
 	 }
- 
+
 	 .bottom-nav {
 		 width: 100%;
 		 height: 90px;
 	 }
- 
+
 	 .bottom-nav ul {
 		 opacity: 1;
 		 visibility: visible;
 	 }
- 
+
 	 .bottom-nav ul.active {
 		 opacity: 1;
 		 visibility: visible;
@@ -2420,19 +2452,19 @@ http://www.muhammadadamfirdaus.com/
 		 -webkit-transition: -webkit-transform 0.3s ease;
 		 transition: transform 0.3s ease;
 	 }
- 
+
 	 .bottom-nav li a {
 		 display: block;
 		 color: #fff;
 	 }
- 
+
 	 .bottom-nav a.box-title {
 		 width: auto;
 		 line-height: 34px;
 	 }
- 
+
  /* end general mobile */
- 
+
  /* iPad 768px */
  @media screen and (min-width: 768px) and (max-width: 800px) {
 	 .logo-tempo {
@@ -2440,7 +2472,7 @@ http://www.muhammadadamfirdaus.com/
 	 }
  }
  /* end iPad 768px */
- 
+
  @media screen and (min-width: 481px) and (max-width: 800px){
 	 .menu-mobile,
 	 a.search {
@@ -2456,46 +2488,46 @@ http://www.muhammadadamfirdaus.com/
 	 a.search {
 		right: 96px;
 	 }
- 
+
 	 .night-mode .logo-tempo {
 		 background-position: -235px 0;
 	 }
- 
+
 	 main .navigation a.swiper-slide {
 		 font-size: 16px;
 		 line-height: 32px;
 		 height: 32px;
 	 }
- 
+
 	 #headline.swiper-container.headline-mobile-terbaru {
 		 height: auto;
 	 }
- 
+
 	 #headline.headline-mobile-terbaru .swiper-slide h2 {
 		 font-size: 120%;
 		 line-height: 1.6em;
 	 }
- 
+
 	 #headline.headline-mobile-terbaru .swiper-slide h3 {
 		 font-size: 120%;
 	 }
- 
+
 	 #update.list.list-type-1 li a:nth-of-type(2) h2 {
 		 height: auto;
 	 }
- 
+
 	 section#detail {
 		 padding-bottom: 30%;
 	 }
  }
  /* end min-width: 568px and max-width: 800px */
- 
+
  /* Small Devices */
  @media screen and (max-width: 480px){
 	 .header-main {
 		 height: 40px;
 	 }
- 
+
 	 .logo-tempo {
 		 width: 70%;
 		 height: 20px;
@@ -2503,89 +2535,89 @@ http://www.muhammadadamfirdaus.com/
 		 background-size: 243px 118px;
 		 margin-left: 10px;
 	 }
- 
+
 	 .night-mode .logo-tempo {
 		 background-position: -120px 0;
 	 }
- 
+
 	 .menu .night-mode-button {
 		 -webkit-transform: scale(0.5);
 		 transform: scale(0.5);
 	 }
- 
+
 	 .menu .addon {
 		 font-size: 100%;
 	 }
- 
+
 	 .menu li:first-child {
-		 padding-left: 30px;
+		 padding-left: 20px;
 		 line-height: 30px;
 	 }
- 
+
 	 .menu li {
 		 margin: 20px 0;
 	 }
- 
+
 	 .menu li a {
 		 font-size: 100%;
 	 }
- 
+
 	 .menu-mobile {
 		 -webkit-transform: scale(0.8);
 		 transform: scale(0.8);
 	 }
- 
+
 	 /*main .content .scroll-container section:last-child {
 		 padding-bottom: 25%;
 	 }*/
 	 main .content .scroll-container section:last-child {
 		 padding-bottom: 25%;
 	 }
- 
+
 	 #headline.headline-mobile-terbaru .swiper-slide h2 {
 		 font-size: 14px;
 		 line-height: 20px;
 	 }
- 
+
 	 #headline.headline-mobile-terbaru .swiper-slide h3 {
 		 font-size: 14px;
 	 }
- 
+
 	 /* fokus */
 	 .fokus .card-type-2 a:nth-of-type(1) {
 		 height: 80px;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) h2 {
 		 font-size: 90%;
 		 line-height: 150%;
 		 height: 85px;
 		 overflow: hidden;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) {
 		 height: 90px;
 	 }
 	 /* end fokus */
- 
+
 	 /* terbaru */
 	 .list.list-type-1 .card-type-1 a:nth-of-type(1) {
 		 width: 70px;
 		 height: 70px;
 	 }
 	 /* end terbaru */
- 
+
 	 .video a:nth-of-type(1) img {
 		 width: auto;
 		 height: 100%;
 	 }
- 
+
 	 section#detail {
 		 padding-bottom: 22.5%;
 	 }
  }
  /* end max-width: 480px */
- 
+
  @media screen and (min-width: 381px) and (max-width: 480px){
 	 .fokus .card-type-2 a:nth-of-type(2) h2 {
 		 font-size: 100%;
@@ -2593,32 +2625,32 @@ http://www.muhammadadamfirdaus.com/
 	 }
  }
  /* end min-width: 381px and max-width: 480px */
- 
+
  @media screen and (min-width: 321px) and (max-width: 380px){
 	 .wrapper,
 	 #headline figcaption a {
 		 padding: 0 10px;
 	 }
- 
+
 	 .night-mode .logo-tempo {
 		 background-position: -118px 0;
 		 width: 55%;
 	 }
- 
+
 	 .menu li:last-child {
 		 margin-bottom: 55%;
 	 }
- 
+
 	 .menu li ul li:last-child {
 		 margin-bottom: 0;
 	 }
- 
+
 	 .menu-mobile a {
 		 font-size: 9px;
 		 line-height: 24px;
 		 letter-spacing: 2.6px;
 	 }
- 
+
 	 .menu li:nth-child(2),
 	 .menu li,
 	 .menu li ul li:nth-child(2),
@@ -2626,45 +2658,45 @@ http://www.muhammadadamfirdaus.com/
 		 margin: 10px 0;
 		 padding: 0 14px;
 	 }
- 
+
 	 .menu li:nth-child(1) a,
 	 .menu li a {
 		 font-size: 100%;
 	 }
- 
+
 	 .scroll-container {
 		 margin-bottom: 28%;
 	 }
- 
+
 	 #headline.headline-mobile-terbaru .swiper-slide h2 {
 		 font-size: 18px;
 		 line-height: 24px;
 	 }
- 
+
 	 main .navigation a.swiper-slide {
 		 font-size: 11px;
 		 padding: 5px 0;
 	 }
- 
+
 	 /* fokus */
 	 .fokus h2.title {
 		 font-size: 14px;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) {
 		 height: 75px;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) h2 {
 		 height: 70px;
 		 overflow: hidden;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(1) {
 		 height: 90px;
 	 }
 	 /* end fokus */
- 
+
 	 /* terpopuler */
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(1) {
 		 -webkit-border-radius: 50%;
@@ -2677,16 +2709,16 @@ http://www.muhammadadamfirdaus.com/
 		 line-height: 40px;
 		 margin-top: 3px;
 	 }
- 
+
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) * {
 		 padding-left: 20px;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) h2 {
 		 height: 50px;
 		 overflow: hidden;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) h2,
 	 .list.list-type-1 .card-type-3 a:nth-of-type(2) h2,
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) h2,
@@ -2694,7 +2726,7 @@ http://www.muhammadadamfirdaus.com/
 		 font-size: 95%;
 		 line-height: 150%;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) span,
 	 .list.list-type-1 .card-type-3 a:nth-of-type(2) span,
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) span {
@@ -2703,51 +2735,51 @@ http://www.muhammadadamfirdaus.com/
 	 /* end terpopuler */
  }
  /* end min-width: 320px max-width: 380px; */
- 
+
  @media screen and (max-width: 320px){
 	 .fokus .card-type-2 a:nth-of-type(1) {
 		 height: 70px;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) h2 {
 		 height: 55px;
 		 overflow: hidden;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) h2,
 	 .list.list-type-1 .card-type-3 a:nth-of-type(2) h2,
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) h2 {
 		 font-size: 13px;
 		 line-height: 19px;
 	 }
- 
+
 	 .list.list-type-1 .card-type-1 a:nth-of-type(2) span,
 	 .list.list-type-1 .card-type-3 a:nth-of-type(2) span,
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(2) span {
 		 font-size: 10px;
 	 }
- 
+
 	 .list.list-type-1.terpopuler .card-type-1 a:nth-of-type(1) {
 		 width: 48px;
 		 height: 48px;
 		 font-size: 24px;
 		 line-height: 48px;
 	 }
- 
+
 	 .fokus h2.title {
 		 font-size: 100%;
 	 }
- 
+
 	 .fokus .card-type-2 a:nth-of-type(2) h2 {
 		 font-size: 87%;
 	 }
- 
+
 	 .fokus li.wrapper {
 		 padding: 0 10px;
 	 }
  }
- 
- 
+
+
  /* custome image order */
  .img-artikel-other img {
 	 width: 100%;
@@ -3421,3 +3453,54 @@ button.swiper-pagination-bullet {
 
 @media screen and (max-width: 380px){
 }
+
+
+div.paging {
+	width 		: 100%; 
+	padding     : 3px;
+	margin      : 70px 0px;
+	text-align  : center;
+	font-family : Helvetica;
+	font-size   : 17px;
+    color       : #FF6500;
+ }
+
+ div.paging a {
+ 	-webkit-border-radius: 25px;
+	-moz-border-radius  : 25px;
+ 	border-radius: 		: 25px;
+ 	padding             : 7px 10px;
+ 	margin-right        : 3px;
+    margin-left         : 3px;
+ 	/*border              : 1px solid #FFF; */
+ 	text-decoration     : none;
+ 	background          : #e53935;
+ 	background-position : bottom;
+ 	color               : #FFF;
+ }
+
+ div.paging a:hover {
+ 	border           : 1px solid #FF9600;
+ 	color            : #FF6500;
+ 	background-color : #FFC794;
+ 	background-image : none;
+ }
+
+ div.paging span.current {
+ 	-webkit-border-radius: 25px;
+	-moz-border-radius  : 25px;
+ 	border-radius: 		: 25px;
+    padding             : 7px 10px;
+    margin-right        : 3px;
+    margin-left         : 3px;
+    border              : 1px solid #FFF;
+    text-decoration     : none;
+    background          : #EDEBEB; 
+    background-position : bottom;
+ 	color               : #909090;
+ }
+
+ div.paging span.prevnext {
+    margin-left     : 0px;
+    margin-right    : 3px; 
+ }

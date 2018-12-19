@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Outstream Video</title>
+</head>
+<body>
+<script src="https://cdn.tmpo.co/js/jquery-3.1.1.min.js"></script>
+<script>
+  $(function(){
+    var parentDocument = window.parent.document;
+    // begin, check if there is article element or not
+    if($('article', parentDocument).length){
+      var outstreamVideo = $('<div class="outstream-video" style="height: 0; transition: height 0.5s ease;"><iframe width="100%" height="100%" src="http://www.youtube.com/embed/nTuAJVnDSz4?&autoplay=1&rel=0&loop=1&showinfo=0&controls=0&hd=1&autohide=1" frameborder="0" allowfullscreen></iframe></div>', parentDocument);
+      // append outstream resources when first load
+      var paragrafDua = $('article p:nth-of-type(2)', parentDocument);
+      paragrafDua.after(outstreamVideo);
+      // scroll triggered
+      $(parentDocument).on('scroll', function(){
+        var scroll = $(parentDocument).scrollTop();
+        var jarakArticleImage = $('article > figure:nth-of-type(1)', parentDocument).offset().top;
+        // check if reach second paragraph
+        if(scroll > jarakArticleImage){
+          console.log('discroll');
+          outstreamVideo.addClass('active');
+          outstreamVideo.css({
+            'background': '#000',
+            'height':'250px',
+            'transition': 'height 0.5s ease'
+          });
+        }
+        // check if outstream was activated
+        if(outstreamVideo.hasClass('active')){
+          setTimeout(function(){
+            outstreamVideo.css({
+              'height':'0',
+              'transition': 'height 0.5s ease'
+            });
+            setTimeout(function(){
+              outstreamVideo.remove();
+            }, 1000);
+          }, 50000);
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>

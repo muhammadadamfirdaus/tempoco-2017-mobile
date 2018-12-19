@@ -232,6 +232,7 @@
 						<div id="comments" class="comments wrapper">
 							<div class="fb-comments" data-href="https://webtorial.tempo.co/adam/tempo/2017/8.2/desktop/detail-artikel.html" data-numposts="5"></div>
 						</div>
+						<div class="load-more"></div>
 					</div> <!-- end scroll container -->
 				</div>
 				<!-- end mobile 2 -->
@@ -367,5 +368,48 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVGQF5T"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<script>
+$(window).off('scroll').on('scroll', function () {
+	if($(window).scrollTop() + $(window).height() == $(document).height()) {
+
+		// $( "div.load-more" ).replaceWith('<center><div class="loader"></div></center>');
+		// console.log('bottom '+$('.load-more').offset().top+' <= '+$(window).scrollTop() + $(window).height() );
+		// console.log($('footer').offset().top +' <= '+ $(window).scrollTop() + $(window).height());
+		console.log('muncul');
+		// setInterval(function(){
+		// 	console.log('url');
+		// window.location = 'https://bisnis.tempo.co/read/1053892/5-000-perusahaan-pertambangan-menunggak-setoran-reklamasi';
+		// }, 3000)
+		// $(window).off('scroll');
+			var counter = 0;
+			counter++;
+				$.ajax({
+					type: "GET",
+					 url: 'ajax/detail/1028255',
+					// url: 'https://www.tempo.co/ajax?tipe=beritaterkini&limit=10&start=10',
+					success: function (result) {
+						 $( "div.load-more" ).replaceWith(result);
+						$(".load-more").append(result);
+
+						// sIndex = sIndex + offSet;
+						// isPreviousEventComplete = true;
+								 //
+						// if (result == '') //When data is not available
+						 // 	 isDataAvailable = false;
+								 //
+								 // alert(result);
+								 // console.log(result);
+				 // $(window).on('scroll');
+
+						// $(".LoaderImage").css("display", "none");
+					},
+					error: function (error) {
+							// alert(error);
+					}
+				});
+		 }
+		});
+</script>
+<div class="end"></div>
 </body>
 </html>
